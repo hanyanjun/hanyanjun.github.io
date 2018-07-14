@@ -107,16 +107,16 @@
 <meta property="og:site_name" content="Hardy">
 <meta property="og:description" content="1.自定义分享按钮 先到jiathis上申请一个账号然后获取uid jiathis链接点跳转">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/jiathis-uid.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/jiathisconfig-uid.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/jiathisconfig.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/jiathisui.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/insert-img.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/jiathis-uid.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/jiathisconfig-uid.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/jiathisconfig.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/jiathisui.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/insert-img.png">
 <meta property="og:updated_time" content="2018-04-23T08:36:34.088Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo-next主题美化-持续更新">
 <meta name="twitter:description" content="1.自定义分享按钮 先到jiathis上申请一个账号然后获取uid jiathis链接点跳转">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/hexo-next主题美化-持续更新/jiathis-uid.png">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/23/hexo-next主题美化-持续更新/jiathis-uid.png">
 
 
 
@@ -421,18 +421,18 @@
         <h3 id="1-自定义分享按钮"><a href="#1-自定义分享按钮" class="headerlink" title="1.自定义分享按钮"></a>1.自定义分享按钮</h3><ul>
 <li><p>先到jiathis上申请一个账号然后获取uid</p>
 <p><a href="http://www.jiathis.com/" target="_blank" rel="noopener">jiathis链接点跳转</a></p>
-<p><img src="hexo-next主题美化-持续更新/jiathis-uid.png" alt=""></p>
+<p><img src="/2018/04/23/hexo-next主题美化-持续更新/jiathis-uid.png" alt=""></p>
 <hr>
 <a id="more"></a>
 </li>
 <li><p>以next主题为例子，找到themes\next_config.yml文件；然后改为如下配置；</p>
-<p><img src="hexo-next主题美化-持续更新/jiathisconfig-uid.png" alt=""></p>
+<p><img src="/2018/04/23/hexo-next主题美化-持续更新/jiathisconfig-uid.png" alt=""></p>
 <hr>
 <p>​</p>
 </li>
 <li><p>最后找到 themes\next\layout_partials\share\jiathis.swig文件；</p>
-<p><img src="hexo-next主题美化-持续更新/jiathisconfig.png" alt=""></p>
-<p><img src="hexo-next主题美化-持续更新/jiathisui.png" alt=""></p>
+<p><img src="/2018/04/23/hexo-next主题美化-持续更新/jiathisconfig.png" alt=""></p>
+<p><img src="/2018/04/23/hexo-next主题美化-持续更新/jiathisui.png" alt=""></p>
 </li>
 </ul>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tsina"</span> <span class="attr">title</span>=<span class="string">"分享到微博"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_tsina"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_tqq"</span> <span class="attr">title</span>=<span class="string">"分享到腾讯微博"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_tqq"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_weixin"</span> <span class="attr">title</span>=<span class="string">"分享到微信"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_weixin"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_cqq"</span> <span class="attr">title</span>=<span class="string">"分享到QQ好友"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_cqq"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_douban"</span> <span class="attr">title</span>=<span class="string">"分享到豆瓣"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_douban"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_renren"</span> <span class="attr">title</span>=<span class="string">"分享到人人网"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_renren"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_qzone"</span> <span class="attr">title</span>=<span class="string">"分享到QQ空间"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_qzone"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_kaixin001"</span> <span class="attr">title</span>=<span class="string">"分享到开心网"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_kaixin001"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"jiathis_button_copy"</span> <span class="attr">title</span>=<span class="string">"复制网址"</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"jiathis_txt jtico jtico_copy"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -440,7 +440,7 @@
 <h3 id="2-博文中插入图片"><a href="#2-博文中插入图片" class="headerlink" title="2.博文中插入图片"></a>2.博文中插入图片</h3><p>在hexo根目录下运行：npm install <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a> –save</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">执行 hexo new [layout] <span class="tag">&lt;<span class="name">title</span>&gt;</span> 新建文章</span><br></pre></td></tr></table></figure>
 <p>生成文章markdown文件同时生成对应的文件夹</p>
-<p><img src="hexo-next主题美化-持续更新/insert-img.png" alt=""></p>
+<p><img src="/2018/04/23/hexo-next主题美化-持续更新/insert-img.png" alt=""></p>
 <p>把图片放入文件夹内</p>
 <p>markdown文件中引入图片地址</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">最后渲染的时候效果为：<span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"/2018/04/23/hexo-next主题美化-持续更新/jiathisconfig.png"</span> <span class="attr">alt</span>=<span class="string">""</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -736,7 +736,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共字</span>
+  <span class="post-count">博客全站共466字</span>
 </div>
 
         
