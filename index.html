@@ -334,7 +334,7 @@
                 
               
 
-              <time title="创建时间：2018-07-14 11:13:33 / 修改时间：11:23:24" itemprop="dateCreated datePublished" datetime="2018-07-14T11:13:33+08:00">2018-07-14</time>
+              <time title="创建时间：2018-07-14 11:13:33 / 修改时间：11:23:59" itemprop="dateCreated datePublished" datetime="2018-07-14T11:13:33+08:00">2018-07-14</time>
             
 
             
@@ -405,27 +405,18 @@
 
       
         
-          
-            <blockquote>
+          <blockquote>
 <p>在hexo部署或者用到git提交的时候碰到如下log:</p>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nothing to commit, working tree clean</span><br></pre></td></tr></table></figure>
 <p>如果你改了东西有需要提交的东西，出现这种情况那么可能原因是：</p>
-<blockquote>
-<p>git默认配置为忽略大小写，因此无法正确检测大小写的更改 </p>
-</blockquote>
-<p>你可以使用命令：</p>
-<blockquote>
-<p>git config –list</p>
-</blockquote>
-<p><img src="/2018/07/14/hexo部署中-nothing-to-commit-working-tree-clean/1.jpg" alt=""></p>
-<p>查看你的配置是否忽略大小写检测；上图是已关闭；如果你的值为true；那么运行下面命令：</p>
-<blockquote>
-<p>git config core.ignorecase false </p>
-</blockquote>
-<p>关闭git忽略大小写配置，即可检测到大小写名称更改 </p>
-
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/14/hexo部署中-nothing-to-commit-working-tree-clean/#更多" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
